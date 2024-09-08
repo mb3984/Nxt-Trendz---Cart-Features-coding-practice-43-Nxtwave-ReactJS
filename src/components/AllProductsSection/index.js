@@ -115,6 +115,8 @@ class AllProductsSection extends Component {
         imageUrl: product.image_url,
         rating: product.rating,
       }))
+      console.log(updatedData)
+      
       this.setState({
         productsList: updatedData,
         apiStatus: apiStatusConstants.success,
